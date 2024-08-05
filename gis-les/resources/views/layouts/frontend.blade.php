@@ -260,12 +260,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- - - - - - - - - - - - - - - - - -  
           Content halaman utama 
 - - - - - - - - - - - - - - - - - - -->
-
     <!-- Main content -->
     <div class="content">
         <div class="container">
             <div class="row">
+
             @yield('content') <!-- mengambil section content di v_web.blade.php -->
+
             </div>
         </div>
 <!-- - - - - - - - - - - - - - - - - -  
